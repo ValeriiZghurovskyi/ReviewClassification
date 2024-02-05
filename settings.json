@@ -1,0 +1,27 @@
+{
+    "general": {
+        "random_state": 42,
+        "data_dir": "data",
+        "models_dir": "models",
+        "results_dir": "results",
+        "outputs_dir": "outputs"
+    },
+    "data": {
+        "train_data_url": "https://static.cdn.epam.com/uploads/583f9e4a37492715074c531dbd5abad2/ds/final_project_train_dataset.zip",
+        "inference_data_url": "https://static.cdn.epam.com/uploads/583f9e4a37492715074c531dbd5abad2/ds/final_project_test_dataset.zip",
+        "prepare_train_data": true,
+        "train_file_to_preparation": "train.csv",
+        "prepare_inference_data": true,
+        "inference_file_to_preparation": "inference.csv"
+    },
+    "train": {
+        "model_name": "review_model.pkl",
+        "table_name": "processed_train.csv",
+        "test_size": 0.2,
+        "C_value": 0.3
+    },
+    "inference": {
+        "model_name": "review_model.pkl",
+        "inp_table_name": "processed_inference.csv"
+    }
+}
