@@ -102,7 +102,7 @@ This sentiment classification project successfully demonstrates the application 
 First step. Clone my repository from github, like an example:
 
 ```bash
-git clone [link]
+git clone https://github.com/ValeriiZghurovskyi/ReviewClassification
 ```
 
 ### Data load
