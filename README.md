@@ -47,29 +47,53 @@ This sentiment classification project successfully demonstrates the application 
 ## Repo structure
 
 /ReviewClassification/
+
 |--data/ #This folder is ignored
+
 |     |--raw/
+
 |     |--processed/
+
 |--notebooks/
+
 |--src/
+
 |     |--train/
+
 |     |     |--train.py
+
 |     |     |--Dockerfile
+
 |     |--inference/
+
 |     |     |--inference.py
+
 |     |     |--Dockerfile
+
 |     |--data_load.py
+
 |     |--data_preparation.py
+
 |--outputs/ #This folder is ignored
+
 |     |--models/ #This folder stores trained models
+
 |     |     |--model_1.pkl
+
 |     |--predictions/ #This folder stores model predictions and their metrics
+
 |     |     |--predictions.csv
+
 |     |     |--metrics.txt
+
 |     |-- vectors/ #This folder stores the vectorizer for the same data preparation
+
 |--README.MD
+
 |--requirements.txt
+
 |--settings.json
+
 
 ## How to buid the project
 
