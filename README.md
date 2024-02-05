@@ -50,29 +50,29 @@ This sentiment classification project successfully demonstrates the application 
 
 |--data/ #This folder is ignored
 
-|     |--raw/
+|     |--raw/ #This folder stores raw data
 
-|     |--processed/
+|     |--processed/ #This folder stores the prepared data
 
-|--notebooks/
+|--notebooks/ #A notebook with detailed EDA is stored in this folder
 
 |--src/
 
-|     |--train/
+|     |--train/ #Docker and train script for training are stored in this folder
 
 |     |     |--train.py
 
 |     |     |--Dockerfile
 
-|     |--inference/
+|     |--inference/ #Docker and train script for inference are stored in this folder
 
 |     |     |--inference.py
 
 |     |     |--Dockerfile
 
-|     |--data_load.py
+|     |--data_load.py #Script for downloading data
 
-|     |--data_preparation.py
+|     |--data_preparation.py #Script for data preparation
 
 |--outputs/ #This folder is ignored
 
@@ -126,7 +126,7 @@ cd Data
 ```
 
 ```bash
-mkdir Data
+mkdir raw
 ```
 
 and move your files there.
