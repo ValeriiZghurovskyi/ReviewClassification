@@ -26,10 +26,10 @@ This project is dedicated to binary sentiment classification of movie reviews, a
 
 The chosen LinearSVC model, in conjunction with TF-IDF vectorization and stemming, exhibited excellent performance:
 
-- **Accuracy:** 88.23%, indicating a high success rate in classification.
-- **Recall:** 89.07%, showing the model's effectiveness in correctly identifying positive reviews.
-- **Precision:** 87.67%, reflecting the accuracy of positive predictions.
-- **F1 Score:** 88.36%, demonstrating a balanced performance between precision and recall.
+- **Accuracy:** 88.25%, indicating a high success rate in classification.
+- **Recall:** 89.64%, showing the model's effectiveness in correctly identifying positive reviews.
+- **Precision:** 87.29%, reflecting the accuracy of positive predictions.
+- **F1 Score:** 88.45%, demonstrating a balanced performance between precision and recall.
 
 ## Potential Business Applications and Value for Business
 
