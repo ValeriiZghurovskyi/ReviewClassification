@@ -10,5 +10,5 @@ COPY . /app
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Run inference.py when the container launches
+# Run run_inference.py when the container launches
 CMD ["python", "src/inference/inference.py"]
